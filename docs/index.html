@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Somali Speech: listen</title>
+<style>
+:root { --bg:#fbfaf7; --fg:#1d2430; --muted:#5a6573; --card:#ffffff; --line:#d9dde3; --accent:#1b6b4a; --warn:#8a4b00; }
+@media (prefers-color-scheme: dark) { :root { --bg:#121820; --fg:#e8ecf1; --muted:#9aa6b4; --card:#1a222c; --line:#2c3643; --accent:#5fcf9d; --warn:#f0b36b; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:24px 16px 56px; }
+h1 { font-size:1.6rem; margin:0 0 4px; }
+h2 { font-size:1.1rem; margin:28px 0 8px; }
+p { margin:0 0 12px; }
+.muted { color:var(--muted); }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin:12px 0; }
+.card h3 { margin:0 0 2px; font-size:1.05rem; }
+.tag { display:inline-block; font-size:.78rem; border:1px solid var(--warn); color:var(--warn); border-radius:999px; padding:1px 8px; margin-bottom:8px; }
+audio { width:100%; margin:8px 0 6px; }
+dl { display:grid; grid-template-columns:auto 1fr; gap:2px 12px; margin:6px 0 0; font-size:.92rem; }
+dt { color:var(--muted); }
+dd { margin:0; }
+a { color:var(--accent); }
+code { background:var(--card); border:1px solid var(--line); border-radius:4px; padding:0 4px; }
+.box { border-left:4px solid var(--accent); padding:4px 12px; margin:12px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Open Somali Speech: listen</h1>
+<p class="muted">Day one. Below is everything you can hear today, and exactly what it is.</p>
+
+<div class="box">
+<p><strong>Human recordings: none yet.</strong> No Somali speaker has recorded for this project, and we will not collect any until the consent process is reviewed and available in Somali. These clips are machine-made, shown so you can judge the starting point and why this project is needed.</p>
+</div>
+
+<h2>Synthetic demo clips</h2>
+<p>Made with Meta's <code>MMS-TTS</code> Somali model (licence CC-BY-NC 4.0, non-commercial) using our own scripts. Each clip is the best of 8 tries, picked by a speech recogniser, which is our reliability idea in action. The phrases are everyday Somali we chose ourselves, not text from any book.</p>
+
+<div class="card">
+<span class="tag">synthetic voice, not a person</span>
+<h3>mahad alle ayaa iska leh</h3>
+<audio controls preload="none" src="demo/mahad-alle.mp3"></audio>
+<dl>
+<dt>Recogniser heard</dt><dd>"mahad alle ayaa iska leh" (matched, error rate 0.00)</dd>
+<dt>Across the 8 tries</dt><dd>average error rate 0.01</dd>
+</dl>
+</div>
+
+<div class="card">
+<span class="tag">synthetic voice, not a person</span>
+<h3>soo dhawoow</h3>
+<audio controls preload="none" src="demo/soo-dhawoow.mp3"></audio>
+<dl>
+<dt>Recogniser heard</dt><dd>"too dhaw ow" (not a match, error rate 0.18 even for the best try)</dd>
+<dt>Across the 8 tries</dt><dd>average error rate 0.32</dd>
+</dl>
+<p class="muted" style="margin-top:8px">This one is flawed. We are showing it on purpose: a short common word that the current open model still gets wrong is exactly the gap a clean, consented Somali dataset should close.</p>
+</div>
+
+<h2>How to read these honestly</h2>
+<ul>
+<li>These are not our model and not a human voice. They come from a third-party model we can only use non-commercially. Do not use them to train an open model.</li>
+<li>The recogniser that scored them is from the same family as the voice model, so it can favour that model's pronunciation. A Somali listener is the real judge. If you speak Somali, tell us what you hear: <a href="https://github.com/abdishakurali/open-somali-speech/issues">open an issue</a>.</li>
+<li>The 16 kHz output is thin compared with studio speech.</li>
+<li>Full per-try numbers are in <a href="demo/report.json">report.json</a>.</li>
+</ul>
+
+<h2>What comes next</h2>
+<p>Review of the hard-word list by Somali speakers, a reviewed consent process, then recordings from consenting speakers under a clear open licence. Read the <a href="https://github.com/abdishakurali/open-somali-speech">README</a> and <a href="https://github.com/abdishakurali/open-somali-speech/blob/main/CONTRIBUTING.md">CONTRIBUTING</a>.</p>
+</main>
+</body>
+</html>

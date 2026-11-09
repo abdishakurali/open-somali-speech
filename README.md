@@ -4,6 +4,9 @@ An open project to build a clean, openly licensed **Somali voice dataset** (reco
 
 **Status: day one.** This repository holds our starting point: a plan, evaluation scripts, a draft list of hard Somali words, and the rules for contributing safely. **It holds no dataset yet, and no recordings.** We would rather say that plainly than look bigger than we are.
 
+## Listen now
+**[Play the demo clips](https://abdishakurali.github.io/open-somali-speech/)**, with the recogniser scores shown next to each one. They are machine-made (Meta MMS-TTS, non-commercial) and one of them is wrong on purpose left visible. There are no human recordings yet. Direct files if the page is slow: [`mahad-alle.mp3`](docs/demo/mahad-alle.mp3), [`soo-dhawoow.mp3`](docs/demo/soo-dhawoow.mp3), numbers in [`report.json`](docs/demo/report.json).
+
 ## Why
 Somali has no open, clean, single-speaker speech corpus that we could find. Checked on 2026-11-09:
 - Google FLEURS includes Somali (`so_so`, cc-by-4.0 on its dataset card), but it is a small read-sentence benchmark, not a corpus for building a voice.

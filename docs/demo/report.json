@@ -1,0 +1,100 @@
+{
+ "mahad-alle": {
+  "text": "mahad alle ayaa iska leh",
+  "best_seed": 0,
+  "best_heard": "mahad alle ayaa iska leh",
+  "best_cer": 0.0,
+  "mean_cer": 0.01,
+  "tries": [
+   {
+    "seed": 0,
+    "heard": "mahad alle ayaa iska leh",
+    "cer": 0.0
+   },
+   {
+    "seed": 1,
+    "heard": "mahad alle ayaa iska leh",
+    "cer": 0.0
+   },
+   {
+    "seed": 2,
+    "heard": "mahad alle ayaa iska leh",
+    "cer": 0.0
+   },
+   {
+    "seed": 3,
+    "heard": "mahad alle ayaa iska leh",
+    "cer": 0.0
+   },
+   {
+    "seed": 4,
+    "heard": "mahad alle ayaa iska leh",
+    "cer": 0.0
+   },
+   {
+    "seed": 5,
+    "heard": "mahad a le ayaa iska leh",
+    "cer": 0.04
+   },
+   {
+    "seed": 6,
+    "heard": "mahad alle ayaa iska leh",
+    "cer": 0.0
+   },
+   {
+    "seed": 7,
+    "heard": "mahad alle ayaa iska leh",
+    "cer": 0.0
+   }
+  ]
+ },
+ "soo-dhawoow": {
+  "text": "soo dhawoow",
+  "best_seed": 1,
+  "best_heard": "too dhaw ow",
+  "best_cer": 0.18,
+  "mean_cer": 0.32,
+  "tries": [
+   {
+    "seed": 0,
+    "heard": "daal dhawow",
+    "cer": 0.45
+   },
+   {
+    "seed": 1,
+    "heard": "too dhaw ow",
+    "cer": 0.18
+   },
+   {
+    "seed": 2,
+    "heard": "soo dhow uw",
+    "cer": 0.27
+   },
+   {
+    "seed": 3,
+    "heard": "dabal dhawwow",
+    "cer": 0.55
+   },
+   {
+    "seed": 4,
+    "heard": "doodawow",
+    "cer": 0.36
+   },
+   {
+    "seed": 5,
+    "heard": "dool da woow",
+    "cer": 0.36
+   },
+   {
+    "seed": 6,
+    "heard": "doo dhawow",
+    "cer": 0.18
+   },
+   {
+    "seed": 7,
+    "heard": "doo dhawwow",
+    "cer": 0.18
+   }
+  ]
+ }
+}
