@@ -9,11 +9,11 @@ Press play. These are machine-made (Meta MMS-TTS, non-commercial), not a person.
 
 **mahad alle ayaa iska leh** (matched, error rate 0.00)
 
-<video src="https://github.com/abdishakurali/open-somali-speech/raw/main/docs/demo/mahad-alle.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/657916e4-7112-47c7-9e22-b4eb14d1daba
 
 **soo dhawoow** (imperfect, best error rate 0.18)
 
-<video src="https://github.com/abdishakurali/open-somali-speech/raw/main/docs/demo/soo-dhawoow.mp4" controls width="480"></video>
+https://github.com/user-attachments/assets/848495cb-b0ea-4492-85b8-995d1b243087
 
 If the players do not show, **[open the demo page](https://abdishakurali.github.io/open-somali-speech/)**, with the recogniser scores shown next to each one. They are machine-made (Meta MMS-TTS, non-commercial), and we left the weaker clip visible on purpose. There are no human recordings yet. Direct files if the page is slow: [`mahad-alle.mp3`](docs/demo/mahad-alle.mp3), [`soo-dhawoow.mp3`](docs/demo/soo-dhawoow.mp3), numbers in [`report.json`](docs/demo/report.json).
 
