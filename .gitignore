@@ -7,3 +7,4 @@ hf/
 *.log
 __pycache__/
 !docs/demo/*.mp3
+!docs/demo/*.mp4

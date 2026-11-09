@@ -5,7 +5,17 @@ An open project to build a clean, openly licensed **Somali voice dataset** (reco
 **Status: day one.** This repository holds our starting point: a plan, evaluation scripts, a draft list of hard Somali words, and the rules for contributing safely. **It holds no dataset yet, and no recordings.** We would rather say that plainly than look bigger than we are.
 
 ## Listen now
-**[Play the demo clips](https://abdishakurali.github.io/open-somali-speech/)**, with the recogniser scores shown next to each one. They are machine-made (Meta MMS-TTS, non-commercial), and we left the weaker clip visible on purpose. There are no human recordings yet. Direct files if the page is slow: [`mahad-alle.mp3`](docs/demo/mahad-alle.mp3), [`soo-dhawoow.mp3`](docs/demo/soo-dhawoow.mp3), numbers in [`report.json`](docs/demo/report.json).
+Press play. These are machine-made (Meta MMS-TTS, non-commercial), not a person. The recogniser heard the first clip back exactly; it got the second one wrong, and we left it here on purpose.
+
+**mahad alle ayaa iska leh** (matched, error rate 0.00)
+
+<video src="https://github.com/abdishakurali/open-somali-speech/raw/main/docs/demo/mahad-alle.mp4" controls width="480"></video>
+
+**soo dhawoow** (imperfect, best error rate 0.18)
+
+<video src="https://github.com/abdishakurali/open-somali-speech/raw/main/docs/demo/soo-dhawoow.mp4" controls width="480"></video>
+
+If the players do not show, **[open the demo page](https://abdishakurali.github.io/open-somali-speech/)**, with the recogniser scores shown next to each one. They are machine-made (Meta MMS-TTS, non-commercial), and we left the weaker clip visible on purpose. There are no human recordings yet. Direct files if the page is slow: [`mahad-alle.mp3`](docs/demo/mahad-alle.mp3), [`soo-dhawoow.mp3`](docs/demo/soo-dhawoow.mp3), numbers in [`report.json`](docs/demo/report.json).
 
 ## Why
 Somali has no open, clean, single-speaker speech corpus that we could find. Checked on 2026-11-09:
