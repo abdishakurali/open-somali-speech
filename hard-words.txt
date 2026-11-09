@@ -1,0 +1,12 @@
+# Somali TTS hard-word evaluation list (words only; no sentences copied from any translation)
+# Source: words named in OPEN_SOMALI_TTS_PLAN.md section 5 and FINDINGS.md. Authored by the project maintainer. Released under CC0 1.0.
+# Status: DRAFT. A Somali speaker must review spelling, add pronunciation notes, and extend the list.
+# format: word | why it is hard
+mahad | seed-dependent error seen once in 4 runs: heard as "maxad" (plan section 2)
+Alle | Allah; ASR returned "hala"/"alli" for it in an OmniVoice test (FINDINGS)
+Allaah | alternative spelling in use; spelling policy undecided
+dhalin | named in the plan's regression set
+qiyaamo | named in the plan's regression set; spelling to be settled by reviewers
+magaca | mis-spoken by OmniVoice in a test (FINDINGS)
+# long-vowel contrast set, to be filled by Somali speakers with minimal pairs:
+# aa vs a | ee vs e | ii vs i | oo vs o | uu vs u

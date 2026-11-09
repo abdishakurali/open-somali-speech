@@ -1,0 +1,8 @@
+texts.json
+samples/
+venv/
+hf/
+*.wav
+*.mp3
+*.log
+__pycache__/
