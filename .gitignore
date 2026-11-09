@@ -6,3 +6,4 @@ hf/
 *.mp3
 *.log
 __pycache__/
+!docs/demo/*.mp3
